@@ -30,7 +30,12 @@ namespace BriefingGen
 					sb.Append(".");
 				sb.Append(modes[i]);
 			}
-			return baseName.Replace("%MODES%", sb.ToString()).Replace("%MODES%", "");
+			return
+				baseName
+				.Replace("%MODES%", sb.ToString())
+				.Replace("%MODES%", "")
+				.Replace("__MODES__", sb.ToString())
+				.Replace("__MODES__", "");
 		}
 
 		static List<string> GetBriefingLines(KeyDataCollection section)

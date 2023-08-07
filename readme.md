@@ -9,7 +9,7 @@ It is INI file.
 
 > - Section is a file with a patch. Plase, visit https://github.com/Multfinite/RA2YRPatchCollection to example.
 > - Index parameter determines sorting order
-> - Name - addition to map name. Map name MUST include %MODES% placeholder. For example, you have names: NP (Index = 1), RA2 (Index = 0), it will be appliaed as RA2.NP to map name.
+> - Name - addition to map name. Map name MUST include %MODES% or __MODES__ placeholder. For example, you have names: NP (Index = 1), RA2 (Index = 0), it will be appliaed as RA2.NP to map name.
 > - 0 .. N - briefing text.
 
 An example:
@@ -103,7 +103,7 @@ An example:
 		14=Good luck, Comrade!
 		20=------ALLIES (ATTACKERS, 1234)--------
 		21=The Soviet invasion of Europe was successful. All of Europe is occupied and the British Isles are the last bastion of the civilized world.
-		23=Commander, you and your ñolleagues must land in Normandy and after regain Paris and adjacent territories.
+		23=Commander, you and your colleagues must land in Normandy and after regain Paris and adjacent territories.
 		24=Note: your colleague at forefront (1) needs you.
 		25=Good luck, commander!
 		30=-------------------------------------------
