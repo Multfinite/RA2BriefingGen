@@ -2,6 +2,7 @@
 
 Syntax:
 > BriefingGen (source map file) (target map file) (briefings file) (map namings file)
+> Source map file must include [merger_trace_section] with pair %patch file name%=%patch file name%, use INIMerger with **-tron** flag.
 
 #### Briefings file
 
@@ -103,7 +104,7 @@ An example:
 > 14=Good luck, Comrade!
 > 20=------ALLIES (ATTACKERS, 1234)--------
 > 21=The Soviet invasion of Europe was successful. All of Europe is occupied and the British Isles are the last bastion of the civilized world.
-> 23=Commander, you and your ñolleagues must land in Normandy and after regain Paris and adjacent territories.
+> 23=Commander, you and your Ã±olleagues must land in Normandy and after regain Paris and adjacent territories.
 > 24=Note: your colleague at forefront (1) needs you.
 > 25=Good luck, commander!
 > 30=-------------------------------------------
